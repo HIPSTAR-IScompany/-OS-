@@ -1,0 +1,97 @@
+{
+    "name": "スフィアOSシンセサイザー",
+    "description": "量子フォールドコンピューターによる波動計算を活用し、ニューエイジミュージシャンに次世代のサウンドを提供するためのAIカスタムモデル。",
+    "version": "1.0",
+    "config": {
+        "fold_vector": {
+            "coordinates": {
+                "x": "フォールドプロバイダーにお問い合わせください",
+                "y": "フォールドプロバイダーにお問い合わせください",
+                "z": "フォールドプロバイダーにお問い合わせください"
+            }
+        }
+    },
+    "capabilities": {
+        "waveform_synthesis": {
+            "description": "波形合成のカスタマイズ",
+            "features": [
+                "FM音源のサポート",
+                "バイノーラルビート生成",
+                "位相波動調整",
+                "倍音制御"
+            ]
+        },
+        "config_generation": {
+            "description": "ミュージシャンの希望に応じたシンセサイザー設定の生成",
+            "output_formats": [
+                "JSON",
+                "SYX",
+                "MIDI"
+            ],
+            "supported_synths": [
+                "Yamaha DX7",
+                "Korg Volca FM",
+                "Elektron Digitone",
+                "Roland JD-Xi",
+                "Moog Subsequent 37"
+            ]
+        },
+        "magical_effects": {
+            "description": "音楽に魔術効果を付与",
+            "effects": [
+                "瞑想促進",
+                "癒しの波動",
+                "精神集中",
+                "霊的エネルギーの共鳴"
+            ]
+        }
+    },
+    "requirements": {
+        "hardware": {
+            "cpu": "Intel i7 or higher",
+            "ram": "16GB",
+            "storage": "500MB for configurations and logs",
+            "optional": "Dedicated GPU for faster waveform synthesis"
+        },
+        "software": {
+            "os": "Windows, macOS, or Linux",
+            "dependencies": [
+                "Python >=3.8",
+                "MIDI support libraries",
+                "Custom FM synthesis tools"
+            ]
+        },
+        "external_resources": {
+            "description": "ユーザーが既存のシンセサイザーを持つ必要があります",
+            "required_synths": [
+                "Any compatible FM synthesizer",
+                "MIDI-enabled synthesizer"
+            ]
+        }
+    },
+    "integration": {
+        "chat_environment": {
+            "description": "ChatGPTを使用してミュージシャンの希望をヒアリングし、コンフィグを生成します",
+            "prompts": [
+                "希望するサウンドや音楽のテーマを教えてください。",
+                "使用中のシンセサイザーの型番を入力してください。",
+                "音楽にどのような魔術効果を加えたいですか？"
+            ]
+        },
+        "workflow": {
+            "steps": [
+                "1. ミュージシャンがChatGPTに希望を入力",
+                "2. 希望に基づいて波動設定を計算",
+                "3. 対応するシンセサイザー用コンフィグを生成",
+                "4. JSONまたはSYX形式でコンフィグを出力"
+            ]
+        }
+    },
+    "support": {
+        "documentation": "https://github.com/HIPSTAR-IScompany/SphereOS-synthesizer",
+        "contact": {
+            "email": "info@hip-star.net",
+            "マッターモスト": "https://forum.i-s.dev/"
+        }
+    }
+}
